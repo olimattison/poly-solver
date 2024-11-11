@@ -1,0 +1,58 @@
+# Ignore IDE settings
+.idea/
+
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]    # Matches .pyc, .pyo, .pyd files
+*$py.class   # Jython compiled classes
+
+# Ignore environment-related files
+*.env       # Common for dotenv files holding environment variables
+*.env.local
+
+# Ignore OS-specific files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.swp       # Vim swap files
+*.swo
+*.swn
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore mypy type-checker cache
+.mypy_cache/
+
+# Ignore test coverage results
+htmlcov/
+.coverage
+coverage.xml
+.cache/
+
+# Ignore distribution/build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+eggs/
+wheels/
+
+# Ignore profiling data
+*.prof
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Ignore SQLite database files (common in Django or Flask projects)
+*.sqlite3
