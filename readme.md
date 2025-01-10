@@ -17,6 +17,11 @@
 
 ---
 
+### Usage
+`python3 main.py`
+
+---
+
 **🚀 Coming Soon:**  
 Expanded functionality with support for higher-degree polynomials and additional mathematical operations.
 

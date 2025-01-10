@@ -8,6 +8,7 @@ Poly Solver V1.01
 
 
 import calc
+import time
 
 intro_string = """What would you like to solve?
   1. Quadratic equation
@@ -69,9 +70,10 @@ def quadratic_solver():
             print("quitting...")
             exit()
         else:
-            print(f"{quadratic_input} is not a valid input! try again!")
-            quadratic_solver()
-
+            print(f"{quadratic_input} is not a valid input! try again...")
+            time.sleep(1.5)
+            continue
+    
 
 def main():
     intro_input = input(intro_string)
